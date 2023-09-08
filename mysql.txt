@@ -1,0 +1,32 @@
+ #creating database
+Create database admin;
+ # using database
+Use admin;
+#creating tables
+Create table
+#Creating “admin_log” table
+Create table admin_log
+(id varchar(50 primary key not null,
+name varchar(50) not null,
+password varchar(6) not null);
+#Creating “book” table
+Create table book
+(id int unique not null,
+name varchar(50) not null,
+price int not null);
+#Creating “issue” table
+Create table issue
+(id int unique not null,
+name varchar(50) not null,
+DATE varchar(100) not null,
+b_name varchar(45) not null);
+#Creating “lib_log” table
+Create table lib_log
+(id int  primary key not null,
+name varchar(50) not null,
+password varchar(50) not null);
+#Creating “stu_log” table
+Create table stu_log
+(id int primary key not null,
+name varchar(50) not null,
+password varchar(6) not null);
