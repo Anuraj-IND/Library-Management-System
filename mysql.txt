@@ -1,4 +1,10 @@
- #creating database
+ NOTE: You need to have MySQL in your system to run my application
+       You can download my project from dist folder 
+       After downloading run it as admin(dont worry it dont have virus)
+       IMP: while downloading MySQL (to run my all) make sure to remember its host name user name and password
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+IF MY PROGRAMING ISNT WORKING TRY CREATING THESE MYSQL TABLES AND DATABASE MANNUALLY ^^
+#creating database
 Create database admin;
  # using database
 Use admin;
